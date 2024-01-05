@@ -5,3 +5,30 @@ body{
     padding: 0;
     margin: 0;
 }
+.page-actions-cont{
+ height: 3rem;
+ background-color: #218c74;
+ display: flex;  
+ align-items: flex-end; 
+ font-family: ;
+}
+.page-action{
+    margin: 0.5rem;
+    color: white ;
+}
+.cellprops-actions-cont{
+    height: 3rem;
+    background-color: lightsalmon;
+}
+.formula-actions-cont{
+    height: 3rem;
+    background-color: lightblue;
+}
+.sheet-actions-cont{
+    height: 3rem;
+    background-color: lightcoral;
+}
+.grid-action-cont{
+    height: calc(100vh - 12rem);
+  
+}
