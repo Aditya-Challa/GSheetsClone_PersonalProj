@@ -10,7 +10,7 @@ body{
  background-color: #218c74;
  display: flex;  
  align-items: flex-end; 
- font-family: ;
+ padding-left: 1rem;
 }
 .page-action{
     margin: 0.5rem;
@@ -19,7 +19,7 @@ body{
 }
 .cellprops-actions-cont{
     height: 3rem;
-    background-color: lightsalmon;
+    background-color: #ecf0f1;
     display: flex;
     align-items: center;
     padding-left: 0.5rem;
@@ -42,6 +42,16 @@ body{
 .formula-actions-cont{
     height: 3rem;
     background-color: lightblue;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center ;
+}
+.formula-actions-cont > input{
+    border:none;
+    outline: none;
+}
+.formula-actions-cont >* {
+    display: inline-block;
 }
 .sheet-actions-cont{
     height: 3rem;
