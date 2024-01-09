@@ -50,6 +50,14 @@ body{
     border:none;
     outline: none;
 }
+.formula-icon{
+    
+    width: 1.2rem ;
+
+}
+.address-bar{
+    width: 5rem;
+}
 .formula-actions-cont >* {
     display: inline-block;
 }
